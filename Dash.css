@@ -1,0 +1,49 @@
+.dashh{
+    font-family: serif;
+    text-align: center;
+    margin-top: 4%;
+    color:black;
+    text-decoration-color: black;
+    font-size: 30px;
+}
+.dashh2
+{
+    font-family:monospace;
+    text-align: center;
+    color:black;
+}
+.ptag{
+    
+}
+.dashcard{
+    width:1100px;
+    height:550px;
+    background-color: white;
+    position:fixed;
+    top:8%;
+    left:10%;
+}
+.ehrcard{
+    width:350px;
+    height:350px;
+    background-color: rgb(114, 111, 111);
+    position:fixed;
+    top:29%;
+    left:11%;
+}
+.recard{
+    width:350px;
+    height:350px;
+    background-color:rgb(114, 111, 111);
+    position:fixed;
+    top:29%;
+    left: 39%;
+}
+.appcard{
+    width:350px;
+    height:350px;
+    background-color:rgb(114, 111, 111);
+    position:fixed;
+    top:29%;
+    left:67%;
+}
