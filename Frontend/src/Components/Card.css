@@ -1,0 +1,60 @@
+/* Card.css */
+.card {
+    margin-top:4%;
+    margin-left:500px;
+    height:600px;
+    width: 500px;
+    border: 2px solid #0c0c0c;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* .card img {
+    width: 100%;
+    height: auto;
+    display: block;
+  } */
+  .newp{
+    color:black;
+    text-align: center;
+    margin-left:3%;
+  }
+  .card-content {
+    padding: 16px;
+  }
+  .card:hover{
+    transition: 0.2s;
+    box-shadow:black;
+  }
+  .card-content h2 {
+    color:black;
+    margin-top: 0;
+    margin-bottom: 8px;
+    font-size: 20px;
+  }
+  
+  .card-content p {
+    margin-top:20px;
+    margin-left: -70%;
+  }
+  h5{
+    margin-right:-270px;
+    margin-top:-30px;
+    margin-bottom:30px;
+    color:black;
+  }
+  .btn {
+    display: inline-block;
+    margin-top: 16px;
+    padding: 8px 16px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #007bff;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+  }
