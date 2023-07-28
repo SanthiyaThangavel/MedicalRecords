@@ -1,0 +1,116 @@
+body{
+    background-image: url("https://i.pinimg.com/736x/c3/6e/f8/c36ef84629ce63c6a1faff7cb21c4ca5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hs{
+    text-align:center;
+    margin-left:20px;
+    color:rgb(245, 50, 157);
+    font-size: 50px;
+    font-family:italic;
+    font-weight:bold;
+} 
+.news{
+    color:rgb(0, 0, 0)
+}
+.butt{
+    cursor: pointer;
+    border-radius: 1em;
+    color: #fff;
+    width:15%;
+    height:40%;
+    background: linear-gradient(to right,rgb(242, 32, 67),rgb(248, 205, 118));
+    border: 0;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    margin-left: -25%;
+    font-size: 15px;
+    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+}
+.butts{
+    cursor: pointer;
+    border-radius: 1em;
+    width:15%;
+    height:30%;
+    color: #fff;
+    background: linear-gradient(to right,rgb(242, 32, 67),rgb(248, 205, 118));
+    border: 0;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-top:5%;
+    font-family: 'Ubuntu', sans-serif;
+    margin-left: -25%;
+    font-size: 15px;
+    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+}
+.cards-list {
+    z-index: 0;
+    width: 100%;
+    display:grid;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .cardf {
+    left:0px;
+    margin: 30px auto;
+    width: 300px;
+    height: 200px;
+    border-radius: 40px;
+  box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
+    cursor: pointer;
+    transition: 0.4s;
+  }
+  
+  .cardf .card_image {
+    width: inherit;
+    height: inherit;
+    border-radius: 40px;
+  }
+  
+  .cardf .card_image img {
+    width: inherit;
+    height: inherit;
+    border-radius: 40px;
+    object-fit: cover;
+  }
+  
+  .cardf .card_title {
+    text-align: center;
+    border-radius: 0px 0px 40px 40px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: -80px;
+    height: 40px;
+  }
+  
+  .cardf:hover {
+    transform: scale(0.9, 0.9);
+    box-shadow: 5px 5px 30px 15px rgba(0,0,0,0.25), 
+      -5px -5px 30px 15px rgba(0,0,0,0.22);
+  }
+  
+  .title-white {
+    color: white;
+  }
+  
+  .title-black {
+    color: black;
+  }
+  
+  /* @media all and (max-width: 500px) {
+    .card-list {
+      flex-direction: column;
+    }
+  } */
+  
+  
+  
+  
